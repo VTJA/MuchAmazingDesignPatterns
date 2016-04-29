@@ -3,6 +3,8 @@
 import UIKit
 import Foundation
 
+// Example 1
+
 class ChatRoom {
     static func showMessage(user: User, message: String) {
         print("\(NSDate()) \(user.getName()) \(message)")
@@ -30,6 +32,8 @@ let john = User(name: "John")
 
 robert.sendMessage("sup dawg")
 john.sendMessage("nothing muxh")
+
+// Example 2
 
 class Colleague {
     let name: String
