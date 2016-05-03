@@ -91,5 +91,6 @@ let user0 = ConcreteColleague(name: "0", mediator: messageMediator)
 let user1 = ConcreteColleague(name: "1", mediator: messageMediator)
 messageMediator.addColeague(user0)
 messageMediator.addColeague(user1)
+//stashed changes
 
 user0.send("hello")
