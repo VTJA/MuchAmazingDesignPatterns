@@ -5,6 +5,8 @@ import Foundation
 
 // Example 1
 
+//change
+
 class ChatRoom {
     static func showMessage(user: User, message: String) {
         print("\(NSDate()) \(user.getName()) \(message)")
