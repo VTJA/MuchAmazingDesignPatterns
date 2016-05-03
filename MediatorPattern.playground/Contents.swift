@@ -27,6 +27,8 @@ class User {
     }
 }
 
+//Ex 1 Impl
+
 let robert = User(name: "Robert")
 let john = User(name: "John")
 
@@ -78,6 +80,8 @@ class ConcreteColleague: Colleague {
         print("coll \(name) recv: \(message)")
     }
 }
+
+//Ex 2 Impl
 
 let messageMediator = MessageMediator()
 
